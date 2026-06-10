@@ -4,15 +4,17 @@
 
     ul {
         display: flex;
-        align-items: center;
+        width: max-content;
         gap: 30px;
         font-size: 12px;
 
         li {
+            flex-shrink: 0;
             a {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                text-align: left;
                 gap: 5px;
                 color: rgba(0, 0, 0, 0.6);
             }
@@ -23,3 +25,14 @@
         }
     }
 }
+
+
+    @media (max-width: 700px) {
+        .navigation {
+            width: 100% !important;
+            max-width: 100%;
+            order: 3;
+            display: flex;
+            margin-top: 10px;
+        }
+    }
