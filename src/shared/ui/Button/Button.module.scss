@@ -1,0 +1,38 @@
+.btn {
+  border-width: 1px;
+  border-style: solid;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.default {
+  color: black;
+  border-color: black;
+}
+
+.default:hover {
+  background: var(--color-button-container-secondary-hover);
+}
+
+.primary {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.primary:hover {
+  background: var(--color-button-container-secondary-emphasis-hover);
+  color: var(--color-button-label-secondary-emphasis-hover);
+}
+
+.primary_fill {
+  color: white;
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.primary_fill:hover {
+  background: var(--color-primary-dark);
+}
