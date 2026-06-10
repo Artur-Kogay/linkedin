@@ -1,0 +1,11 @@
+.main__content {
+  margin-top: 48px;
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    h1 {
+      font-size: 48px;
+      font-weight: 400;
+    }
+  }
+}

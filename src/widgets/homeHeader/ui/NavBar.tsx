@@ -1,22 +1,20 @@
-'use client'
-
 import styles from './NavBar.module.scss'
-import Image from "next/image"
 import { NAV_ITEMS } from "../lib"
+import Link from "next/link";
 
 function NavBar() {
 
     return (
         <nav className={styles.navigation}>
             <ul>
-                {
-                    NAV_ITEMS.map(({ text, img }) => (
-                        <li key={text}>
-                            <Image src={img} alt={text} />
+                {NAV_ITEMS.map(({ text, Img, url }) => (
+                    <li key={text}>
+                        <Link href={url}>
+                            <Img width={25} height={25} />
                             {text}
-                        </li>
-                    ))
-                }
+                        </Link>
+                    </li>
+                ))}
             </ul>
         </nav>
     )

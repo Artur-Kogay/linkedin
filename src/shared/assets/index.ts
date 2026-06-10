@@ -1,0 +1,7 @@
+export {default as BriefCaseIcon} from './icons/briefcase.svg'
+export {default as LaptopIcon} from './icons/laptop.svg'
+export {default as PuzzleIcon} from './icons/puzzle.svg'
+export {default as RocketIcon} from './icons/rocket.svg'
+export {default as VideoPlayerIcon} from './icons/video-player.svg'
+export {default as UsersIcon} from './icons/usersIcon.svg'
+export {default as HeroImage} from './images/heroImage.svg'

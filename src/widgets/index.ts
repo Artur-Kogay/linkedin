@@ -1,1 +1,1 @@
-export { HomeHeader } from './homeHeader';
+export * from './homeHeader'

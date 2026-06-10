@@ -1,18 +1,35 @@
-export const NAV_ITEMS = [
+import {INavItemType} from "@/widgets/homeHeader/lib/types/ITypes";
+import {BriefCaseIcon, LaptopIcon, PuzzleIcon, RocketIcon, UsersIcon, VideoPlayerIcon} from "@/shared";
+
+export const NAV_ITEMS: INavItemType[] = [
     {
         text: 'Популярный контент',
-        img: ''
+        Img: RocketIcon,
+        url: '/'
     },
     {
-        text: 'Популярный контент',
-        img: ''
+        text: 'Люди',
+        Img: UsersIcon,
+        url: '/'
     },
     {
-        text: 'Популярный контент',
-        img: ''
+        text: 'Linkedin Learning',
+        Img: VideoPlayerIcon,
+        url: '/'
     },
     {
-        text: 'Популярный контент',
-        img: ''
+        text: 'Вакансии',
+        Img: BriefCaseIcon,
+        url: '/'
     },
+    {
+        text: 'Игры',
+        Img: PuzzleIcon,
+        url: '/'
+    },
+    {
+        text: 'Загрузить приложение',
+        Img: LaptopIcon,
+        url: '/'
+    }
 ]
