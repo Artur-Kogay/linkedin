@@ -1,6 +1,8 @@
 :root {
     --color-primary: rgb(10, 102, 194);
     --color-primary-dark: #004182;
+    --color-primary-light: #1a73e8;
+    --color-primary-light-hover: rgb(210, 227, 252);
     --color-button-container-secondary-emphasis-hover: rgba(112, 181, 249, 0.1);
     --color-button-label-secondary-emphasis-hover: #004182;
     --color-button-container-secondary-hover: rgba(0, 0, 0, 0.04);

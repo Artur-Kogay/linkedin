@@ -1,0 +1,58 @@
+.googleBtn {
+  background-color: var(--color-primary-light);
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  width: 100%;
+  color: white;
+  align-items: center;
+  border: none;
+
+  &_infoWrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &_userPhoto {
+    width: 20px;
+    height: 20px;
+    background: mediumseagreen;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  &_info {
+    text-align: start;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    h3 {
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    span {
+      font-size: 11px;
+      font-weight: 400;
+    }
+  }
+
+  &_googleIcon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.googleBtn:hover {
+  background: var(--color-primary-light-hover);
+}

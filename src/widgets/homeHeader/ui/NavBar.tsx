@@ -3,7 +3,6 @@ import { NAV_ITEMS } from "../lib"
 import Link from "next/link";
 
 function NavBar() {
-
     return (
         <nav className={styles.navigation}>
             <ul>
